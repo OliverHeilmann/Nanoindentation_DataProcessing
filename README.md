@@ -1,6 +1,8 @@
 # Nanoindentation_DataProcessing
 Nanotest Vantage (nanoindentater machine) output depth/loading data is processed by this script. The average of all results contained in the .xlsx file is calculated and a final depth/loading graph is produced. The user must identify and exclude any erroneous results by adding column details in line 44 of SESG6034_Q1.m file.
 
+NOTE: See PDFs (in Matlab folder) for a detailed explanation of code and output graphs.
+
 # Overall Plot
 The image below shows all 10 indentation depth/ load plots based on the input data. The Thick blue plot shows the average curve (excluding the two anomalous curves).
 
